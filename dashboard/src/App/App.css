@@ -1,7 +1,17 @@
 *{
  font-family: 'Times New Roman', Times, serif;
  background-color: black;
+ color: rgb(82, 74, 74);
+}
+.App{
+    display: flex;
+    flex-direction: row;
+}
+.App img{
+    height: 150px;
+    width: 150px;
+    margin-right: 20px;
 }
 h1{
-    color: white;
+    margin-top: 30px;
 }
