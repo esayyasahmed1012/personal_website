@@ -8,6 +8,7 @@ const Header = () => {
                 <li><a href="#">Skills</a></li>
                 <li><a href="#">Experience</a></li>
                 <li><a href="#">Learning</a></li>
+                <li><a href="#">Services</a></li>
                 <li><a href="#">Qoute</a></li>
                 <li><a href="#">Contacts</a></li>
             </ul>

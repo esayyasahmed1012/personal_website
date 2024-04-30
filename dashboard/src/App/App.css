@@ -1,7 +1,13 @@
-*{
- font-family: 'Times New Roman', Times, serif;
- background-color: #d3d3d3;
- color: black;
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(123, 182, 238);
+    color: white;
+    margin: 0;
+    padding: 0;
 }
 
-
+.App {
+    max-width: 850px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 20px; /* Add equal space on the left and right */
+}

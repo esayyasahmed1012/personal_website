@@ -1,36 +1,33 @@
-
-*{
-    color: black;
-}
-
-.Header{
-    text-align: left;
+.Header {
     display: flex;
+    justify-content: space-between; 
     align-items: center;
-    padding: 20px;
-    justify-content: space-between;
 }
 
-.Header button{
-    color: Black;
-    padding: 10px;
-    display: inline;
+.Header button {
     font-size: 30px;
     text-decoration: none;
     border: none;
+    color: white;
+    background: none;
+ /* Add space between the button and the list items */
 }
-button:hover{
+
+.Header button:hover {
     cursor: pointer;
 }
-.Header ul{
+.Header ul {
     list-style: none;
     display: flex;
+    margin: 0;
+    padding: 0;
 }
-.Header ul li{
+
+.Header ul li {
     padding: 5px;
-    list-style: none;
 }
-.Header ul li a{
+.Header ul li a {
     text-decoration: none;
     font-size: 20px;
+    color: white;
 }
