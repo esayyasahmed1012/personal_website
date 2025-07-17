@@ -8,7 +8,7 @@
     "build": "webpack --mode production --config config/webpack.config.js",
     "start": "webpack-dev-server --open --mode development --config config/webpack.config.js",
     "test": "jest",
-    "test-watch": "jest --watch"
+    "test-watch": "jest --watch",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
