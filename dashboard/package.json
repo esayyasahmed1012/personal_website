@@ -5,12 +5,12 @@
   "main": "index.js",
   "homepage": "https://esayyasahmed1012.github.io/personal_website",
   "scripts": {
-    "build": "webpack --mode production --config config/webpack.config.js",
-    "start": "webpack-dev-server --open --mode development --config config/webpack.config.js",
+    "build": "npx webpack --mode production --config config/webpack.config.js",
+    "start": "npx webpack-dev-server --open --mode development --config config/webpack.config.js",
     "test": "jest",
     "test-watch": "jest --watch",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npx gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -26,10 +26,10 @@
     "babel-loader": "^8.2.3",
     "css-loader": "^6.7.1",
     "file-loader": "^6.2.0",
+    "gh-pages": "^6.0.0",
     "image-webpack-loader": "^8.1.0",
     "inline-source-map": "^0.6.2",
     "jest": "^27.5.1",
-    "npm": "^8.5.4",
     "prop-types": "^15.8.1",
     "style-loader": "^3.3.1",
     "webpack": "^5.70.0",
@@ -37,13 +37,17 @@
     "webpack-dev-server": "^4.7.4"
   },
   "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "babel": "^6.23.0",
+    "bootstrap": "^5.3.7",
     "enzyme": "^3.11.0",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.10.10",
     "react-dom": "^17.0.2"
   },
   "jest": {
-    "testPathDirs": [
+    "roots": [
       "<rootDir>/src"
     ],
     "setupFiles": [
